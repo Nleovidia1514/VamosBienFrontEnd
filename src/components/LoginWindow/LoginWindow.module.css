@@ -1,0 +1,49 @@
+.popUp {
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px lightslategray;
+    background-color: lightpink;
+    width: 40%;
+    height: 70%;
+}
+
+.popUp button {
+    border: lightseagreen;
+    background: burlywood;
+    color: black;
+    margin: 10px auto;
+    text-align: center;
+    height: 30px;
+    width: 80px;
+    font-weight: bold;
+}
+
+.popUp button:hover {
+    background: yellowgreen;
+}
+
+.popUp button:active {
+    transform: translateY(5px);
+}
+
+.popUp span {
+    color: red;
+}
+
+h1 {
+    text-align: center;
+}
+
+.field {
+    margin: 10px auto;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: aquamarine;
+    outline: none;
+}
+
+.field:focus {
+    border-bottom-color: black;
+    transition-duration: 0.5s;
+}

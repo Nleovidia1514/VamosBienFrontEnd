@@ -1,0 +1,14 @@
+.UserCard {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    height: 150px;
+}
+
+img {
+    width: 250px;
+    max-width: 60%;
+    height: 100%;
+}
