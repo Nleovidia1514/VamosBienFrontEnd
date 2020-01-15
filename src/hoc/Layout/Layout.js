@@ -29,7 +29,7 @@ class Layout extends Component {
                 exact: false
             }
         },
-        showSideDrawer: true
+        showSideDrawer: false
     }
 
     closeSideDrawerHandler = () => {
@@ -50,6 +50,7 @@ class Layout extends Component {
                     items={this.state.toolbarItems} 
                     openSideDrawer={this.openSideDrawerHandler} />
                 <SideDrawer
+                    userIsAuth={this.props.userIsAuth}
                     items={this.state.toolbarItems} 
                     open={this.state.showSideDrawer} 
                     close={this.closeSideDrawerHandler}  />

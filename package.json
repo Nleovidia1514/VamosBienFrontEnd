@@ -1,10 +1,14 @@
 {
   "name": "react-tutorial",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "proxy": "http://localhost:8080",
   "dependencies": {
+    "@lls/react-light-calendar": "^2.0.4",
+    "google-maps-react": "^2.0.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1"
   },
   "scripts": {
@@ -25,7 +29,8 @@
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
-      "last 1 safari version"
+      "last 1 safari version",
+      "last 1 opera version"
     ]
   }
 }

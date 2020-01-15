@@ -1,3 +1,8 @@
+RUN
+## npm install --save react-router dom
+## npm install --save @lls/react-light-calendar
+##
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -1,14 +1,24 @@
-.UserCard {
+.UserCardContainer{
     display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-    box-sizing: border-box;
-    align-items: center;
-    height: 150px;
+    flex-flow: column;
 }
 
-img {
-    width: 250px;
-    max-width: 60%;
+.UserCardContainer h3{
+    color: white;
+}
+
+.UserCard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Image {
+    width: 120px;
+    height: 120px;
+}
+
+.ProfileImage{
+    width: 100%;
     height: 100%;
 }
